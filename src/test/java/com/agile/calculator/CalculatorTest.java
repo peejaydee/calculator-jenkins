@@ -38,7 +38,7 @@ public class CalculatorTest {
 	@Test
 	public void divide() {
 		calculator = new Calculator();
-		int expected = 15;
+		int expected = 5;
 		int actual = calculator.divide("10,2");
 		assertEquals(expected, actual);
 	}
